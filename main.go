@@ -1,7 +1,6 @@
 package main
 
 import (
-	"yfann/leetcode"
 	"yfann/tools"
 )
 
@@ -31,18 +30,22 @@ import (
 // 	ll.Display()
 // }
 
+// func main() {
+// 	list1 := &leetcode.ListNode{Val: 1}
+// 	list1.Next = &leetcode.ListNode{Val: 2}
+// 	list1.Next.Next = &leetcode.ListNode{Val: 3}
+
+// 	list2 := &leetcode.ListNode{Val: 4}
+// 	list2.Next = &leetcode.ListNode{Val: 8}
+// 	list2.Next.Next = &leetcode.ListNode{Val: 9}
+
+// 	list3 := leetcode.AddTwoNumbers(list1, list2)
+// 	tools.PrintListNode(list1)
+// 	tools.PrintListNode(list2)
+// 	tools.PrintListNode(list3)
+
+// }
+
 func main() {
-	list1 := &leetcode.ListNode{Val: 1}
-	list1.Next = &leetcode.ListNode{Val: 2}
-	list1.Next.Next = &leetcode.ListNode{Val: 3}
-
-	list2 := &leetcode.ListNode{Val: 4}
-	list2.Next = &leetcode.ListNode{Val: 8}
-	list2.Next.Next = &leetcode.ListNode{Val: 9}
-
-	list3 := leetcode.AddTwoNumbers(list1, list2)
-	tools.PrintListNode(list1)
-	tools.PrintListNode(list2)
-	tools.PrintListNode(list3)
-
+	tools.Run()
 }
